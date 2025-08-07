@@ -24,6 +24,11 @@
 .main-bg-light{
     background: #FFF4E5;
 }
+
+.logo-main{
+    width: 220px;
+    height: 50px;
+}
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -209,6 +214,10 @@
 @media (max-width: 768px) {
     .header-carousel .owl-nav {
         left: 25px;
+    }
+    .logo-main{
+        width: 120px;
+        height: 30px;
     }
 }
 
