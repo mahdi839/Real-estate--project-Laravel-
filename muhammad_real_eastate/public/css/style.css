@@ -26,7 +26,7 @@
 }
 
 .logo-main{
-    width: 220px;
+    width: 50px;
     height: 50px;
 }
 
@@ -46,6 +46,7 @@
     visibility: visible;
     opacity: 1;
 }
+
 
 
 /*** Button ***/

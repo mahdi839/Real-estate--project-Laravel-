@@ -1,15 +1,16 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PropertyController;
 
-Route::get('/', function () {
-    return view('frontEnd.home.home');
-});
+Route::get('/', [HomeController::class, 'frontEndIndex'])->name('home');
 
-Route::get('/dashboard', function () {
+Route::get('dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
+Route::resource('dashboard/properties', PropertyController::class)->middleware(['auth', 'verified']);
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
