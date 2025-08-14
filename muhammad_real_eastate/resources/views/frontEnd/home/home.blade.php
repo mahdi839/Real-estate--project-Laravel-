@@ -5,8 +5,7 @@
             <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
                 <div class="col-md-6 p-5 mt-lg-5">
                     <h1 class="display-5 animated fadeIn mb-4">Find A <span class="text-main">Perfect Home</span> To Live With Your Family</h1>
-                    <p class="animated fadeIn mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet
-                        sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                    <p class="animated fadeIn mb-4 pb-2">Find more than just a house—find a place where your family can truly belong. From stylish apartments to spacious family homes, our properties are located in safe, thriving neighborhoods with top-notch amenities, great schools, and easy access to everything you need. Start building your future in a home where comfort meets community.</p>
                     <a href="" class="btn main-bg py-3 px-5 me-3 animated fadeIn">Get Started</a>
                 </div>
                 <div class="col-md-6 animated fadeIn">
@@ -30,10 +29,8 @@
                 <div class="row g-2">
                     <div class="col-md-10">
                         <div class="row g-2">
-                            <div class="col-md-4">
-                                <input type="text" class="form-control border-0 py-3" placeholder="Search Keyword">
-                            </div>
-                            <div class="col-md-4">
+                           
+                            <div class="col-md-6">
                                 <select class="form-select border-0 py-3">
                                     <option selected>Property Type</option>
                                     <option value="1">Property Type 1</option>
@@ -41,7 +38,7 @@
                                     <option value="3">Property Type 3</option>
                                 </select>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <select class="form-select border-0 py-3">
                                     <option selected>Location</option>
                                     <option value="1">Location 1</option>
@@ -65,7 +62,7 @@
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                     <h1 class="mb-3">Property Types</h1>
-                    <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                    <p>Explore a wide range of property types to suit your lifestyle and budget. From modern apartments and cozy family homes to luxurious villas and commercial spaces, we have the perfect option for every need</p>
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -75,7 +72,7 @@
                                     <img class="img-fluid" src="img/icon-apartment.png" alt="Icon">
                                 </div>
                                 <h6>Apartment</h6>
-                                <span>123 Properties</span>
+                                <span class="text-count-color">123 Properties</span>
                             </div>
                         </a>
                     </div>
@@ -86,7 +83,7 @@
                                     <img class="img-fluid" src="img/icon-villa.png" alt="Icon">
                                 </div>
                                 <h6>Villa</h6>
-                                <span>123 Properties</span>
+                                <span >123 Properties</span>
                             </div>
                         </a>
                     </div>
@@ -592,9 +589,9 @@
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                                 <div class="mb-4">
                                     <h1 class="mb-3">Contact With Our Certified Agent</h1>
-                                    <p>Eirmod sed ipsum dolor sit rebum magna erat. Tempor lorem kasd vero ipsum sit sit diam justo sed vero dolor duo.</p>
+                                    <p>Get expert guidance every step of the way. Our certified real estate agents are here to listen, understand your needs, and help you find the perfect property with confidence and ease.</p>
                                 </div>
-                                <a href="" class="btn btn-primary py-3 px-4 me-2"><i class="fa fa-phone-alt me-2"></i>Make A Call</a>
+                                <a href="" class="btn btn-primary py-3 px-4 me-2 mb-2"><i class="fa fa-phone-alt me-2"></i>Make A Call</a>
                                 <a href="" class="btn btn-dark py-3 px-4"><i class="fa fa-calendar-alt me-2"></i>Get Appoinment</a>
                             </div>
                         </div>

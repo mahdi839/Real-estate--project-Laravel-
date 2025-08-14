@@ -32,7 +32,7 @@
                         </div>
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
-                    <a href="" class="btn main-bg px-3 d-none d-lg-flex">Add Property</a>
+                   
                 </div>
             </nav>
         </div>

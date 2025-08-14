@@ -29,6 +29,10 @@
     width: 220px;
     height: 50px;
 }
+
+.text-count-color{
+    color: black;
+}
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -260,7 +264,7 @@
 /*** Category ***/
 .cat-item div {
     background: #FFFFFF;
-    border: 1px dashed rgba(0, 185, 142, .3);
+    border: 1px dashed var(--primary);
     transition: .5s;
 }
 
