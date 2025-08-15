@@ -185,22 +185,16 @@
         <!-- Property List Start -->
         <div class="container-xxl py-5">
             <div class="container">
-                <div class="row g-0 gx-5 align-items-end">
-                    <div class="col-lg-6">
-                        <div class="text-start mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
-                            <h1 class="mb-3">Property Listing</h1>
-                            <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit diam justo sed rebum.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 text-start text-lg-end wow slideInRight" data-wow-delay="0.1s">
-                        <ul class="nav nav-pills d-inline-flex justify-content-end mb-5">
-                            <li class="nav-item me-2">
-                                <a class="btn  main-bg" data-bs-toggle="pill" href="#tab-1">Featured</a>
-                            </li>
-                           
-                        </ul>
-                    </div>
-                </div>
+              <div class="row g-0 gx-5 align-items-end">
+    <div class="col-lg-12">
+        <div class="text-center mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
+            <h1 class="mb-3 section-title">Property Listing</h1>
+            <p class="text-muted" style="max-width: 650px; margin: 0 auto;">
+                Discover a wide range of properties tailored to your needs. From cozy apartments to luxurious villas, our listings feature detailed information, high-quality images, and competitive prices to help you find your perfect home or investment.
+            </p>
+        </div>
+    </div>
+</div>
                 <div class="tab-content">
                     <div id="tab-1" class="tab-pane fade show p-0 active">
                         <div class="row g-4">
