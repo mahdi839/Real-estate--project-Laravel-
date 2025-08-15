@@ -26,8 +26,8 @@
 }
 
 .logo-main{
-    width: 50px;
-    height: 50px;
+    width: 220px;
+    height: 80px;
 }
 
 .text-count-color{
@@ -60,7 +60,7 @@
         position: absolute;
         width: 200px;
         height: 3px;
-        background: var(--primary);
+        background: var(--primary); /* Bootstrap primary color */
         bottom: 0;
         left: 50%;
         transform: translateX(-50%);

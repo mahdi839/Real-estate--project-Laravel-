@@ -5,6 +5,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PropertyController;
+use App\Http\Controllers\TestimonialController;
 
 Route::get('/', [HomeController::class, 'frontEndIndex'])->name('home');
 
@@ -13,6 +14,8 @@ Route::get('dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 Route::resource('dashboard/properties', PropertyController::class)->middleware(['auth', 'verified']);
 Route::resource('dashboard/agents', AgentController::class)->middleware(['auth', 'verified']);
+Route::resource('dashboard/testimonials', TestimonialController::class)->middleware(['auth', 'verified']);
+
 
 
 Route::middleware('auth')->group(function () {
