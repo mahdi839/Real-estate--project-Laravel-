@@ -48,13 +48,10 @@
                                     <a href="{{ route('properties.edit', $property->id) }}" class="btn btn-sm btn-outline-primary">
                                         <i class="bi bi-pencil"></i>
                                     </a>
-                                    <a href="{{ route('properties.show', $property->id) }}" class="btn btn-sm btn-outline-success">
-                                        <i class="bi bi-eye"></i>
-                                    </a>
                                     <form action="{{ route('properties.destroy', $property->id) }}" method="POST" class="d-inline">
                                         @csrf
                                         @method('DELETE')
-                                        <button type="submit" class="btn btn-sm btn-outline-danger" onclick="return confirm('Are you sure?')">
+                                        <button type="submit" class="btn btn-sm btn-outline-danger" onclick="return confirm('Are you sure to delete this?')">
                                             <i class="bi bi-trash"></i>
                                         </button>
                                     </form>

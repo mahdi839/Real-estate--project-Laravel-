@@ -43,12 +43,12 @@ class PropertyController extends Controller
 
         Property::create($validated);
 
-        return redirect()->route('properties.index')->with('success', 'Property added successfully.');
+        return redirect()->route('dashboard.properties.index')->with('success', 'Property added successfully.');
     }
 
     public function edit(Property $property)
     {
-        return view('properties.edit', compact('property'));
+        return view('dashboard.properties.edit', compact('property'));
     }
 
     public function update(Request $request, Property $property)
