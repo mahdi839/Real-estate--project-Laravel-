@@ -38,9 +38,9 @@
                             <td>{{ $agent->name }}</td>
                             <td>{{ $agent->designation }}</td>
                             <td>
-                                @if($agent->fb_link) <a href="{{ $agent->fb_link }}" target="_blank">FB</a> @endif
-                                @if($agent->insta_link) <a href="{{ $agent->insta_link }}" target="_blank">IG</a> @endif
-                                @if($agent->twitter_link) <a href="{{ $agent->twitter_link }}" target="_blank">TW</a> @endif
+                                @if($agent->fb_link) <a href="{{ $agent->fb_link }}" target="_blank">Facebook - </a> @endif
+                                @if($agent->insta_link) <a href="{{ $agent->insta_link }}" target="_blank">Instagram -</a> @endif
+                                @if($agent->twitter_link) <a href="{{ $agent->twitter_link }}" target="_blank">TWeeter/X</a> @endif
                             </td>
                             <td>
                                 <a href="{{ route('agents.edit', $agent->id) }}" class="btn btn-sm btn-outline-primary">Edit</a>
