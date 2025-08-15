@@ -3,7 +3,7 @@
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
                 <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
                     <div class=" p-2 me-2">
-                        <img class=" logo-main" src="img/logo3.png" alt="Icon" >
+                        <img class=" logo-main" src="img/logo1.png" alt="Icon" >
                     </div>
                     {{-- <h4 class="m-0 text-main">
                         ABTL

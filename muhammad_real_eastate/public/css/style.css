@@ -25,9 +25,14 @@
     background: #FFF4E5;
 }
 
-.logo-main{
+/* .logo-main{
     width: 220px;
     height: 80px;
+} */
+
+.logo-main{
+    width: 270px;
+    height: 90px;
 }
 
 .text-count-color{
@@ -240,8 +245,8 @@
         left: 25px;
     }
     .logo-main{
-        width: 120px;
-        height: 30px;
+        width: 220px;
+        height: 60px;
     }
 }
 

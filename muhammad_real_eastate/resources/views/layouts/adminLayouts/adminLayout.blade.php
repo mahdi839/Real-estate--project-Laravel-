@@ -248,19 +248,26 @@
                 </a>
             </li> --}}
             <li>
-                <a href="{{route('agents.index')}}" data-section="agents">
+                <a href="{{route('agents.index')}}" class="{{ request()->routeIs('agents.*') ? 'active' : '' }}" data-section="agents">
                     <i class="bi bi-people"></i> Agents
+                </a>
+            </li>
+
+              <li>
+                <a href="{{route('about-info.edit')}}" class="{{ request()->routeIs('about-info.edit') ? 'active' : '' }}" data-section="social">
+                   <i class="bi bi-info-circle"></i> About Info
                 </a>
             </li>
            
             <li>
-                <a href="#" data-section="testimonials">
+                <a href="{{route('testimonials.index')}}" class="{{ request()->routeIs('testimonials.*') ? 'active' : '' }}" data-section="testimonials">
                     <i class="bi bi-chat-quote"></i> Testimonials
                 </a>
             </li>
+           
             <li>
-                <a href="#" data-section="social">
-                    <i class="bi bi-link-45deg"></i> Social Links
+                <a href="{{route('footer-info.edit')}}" data-section="social">
+                    <i class="bi bi-link-45deg"></i> Footer Info
                 </a>
             </li>
             <li>
